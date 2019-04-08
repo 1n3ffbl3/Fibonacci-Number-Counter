@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const port = 3000;
-const Fibonacci = require('./logic/fibonacci');
+const Fibonacci = require('./src/logic/fibonacci');
 const fibonacciCalculator = new Fibonacci();
 
 app.get('/fibonacci/:n?', function (req, res) {
@@ -20,4 +20,4 @@ app.get('/fibonacci/:n?', function (req, res) {
 	res.send({ fibonacciNumber: fibonacciCalculator.getFibonacci(fibonacciNumber) });
 });
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.listen(port, () => console.log(`Example app listening on port ${port}!`));
