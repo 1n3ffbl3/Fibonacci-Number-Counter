@@ -20,7 +20,7 @@ REST API with fibonacci endpoint that calculates value of specified Fibonacci se
 
 [TOP](#index)
 
-_
+___
 
 ## How to run
 
@@ -43,6 +43,13 @@ _
  * n indicated by user (optional) - if not present current unit of minute is taken as 'n'
 	- localhost:3000/fibonacci/:n?
  
+6. You can also check out the application on : 
+
+	* base url:
+		- https://awesomedeployment.mizgierm.now.sh
+
+	* endpoint url: 
+		- https://awesomedeployment.mizgierm.now.sh/fibonacci/{?n} 
     
 [TOP](#index)
 
