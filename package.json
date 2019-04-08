@@ -1,22 +1,26 @@
 {
-  "name": "fibonacci-number-counter",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/1n3ffbl3/Fibonacci-Number-Counter.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/1n3ffbl3/Fibonacci-Number-Counter/issues"
-  },
-  "homepage": "https://github.com/1n3ffbl3/Fibonacci-Number-Counter#readme",
-  "dependencies": {
-    "express": "^4.16.4"
-  }
+	"name": "fibonacci-number-counter",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon src/index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/1n3ffbl3/Fibonacci-Number-Counter.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/1n3ffbl3/Fibonacci-Number-Counter/issues"
+	},
+	"homepage": "https://github.com/1n3ffbl3/Fibonacci-Number-Counter#readme",
+	"dependencies": {
+		"express": "^4.16.4"
+	},
+	"devDependencies": {
+		"nodemon": "^1.18.10"
+	}
 }
