@@ -4,6 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
+		"now-start": "node .",
 		"start": "nodemon src/index.js",
 		"test": "./node_modules/mocha/bin/_mocha"
 	},
